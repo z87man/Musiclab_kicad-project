@@ -1,0 +1,321 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "Radar:outline" (in_bom yes) (on_board yes)
+      (property "Reference" "outline" (at 0 6.35 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 1.27 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 1.27 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 1.27 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "outline_0_1"
+        (circle (center -3.81 -3.81) (radius 1.27)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (circle (center -3.81 3.81) (radius 1.27)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.08 3.81)
+            (xy -5.08 -3.81)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.81 -5.08)
+            (xy 3.81 -5.08)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.81 5.08)
+            (xy -3.81 5.08)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 5.08 3.81)
+            (xy 5.08 -3.81)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (circle (center 3.81 -3.81) (radius 1.27)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (circle (center 3.81 3.81) (radius 1.27)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "outline_1_1"
+        (pin free line (at -10.16 0 0) (length 5.08)
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+
+  (symbol (lib_id "power:GND") (at 72.39 121.92 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 950d9fea-3323-483f-872c-80e5a3e0c000)
+    (property "Reference" "#PWR04" (at 72.39 128.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 72.39 126.619 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 72.39 121.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 72.39 121.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 255923ca-1387-42ba-abb2-5da792e9213d))
+    (instances
+      (project "PowerManage.2"
+        (path "/32556704-de3f-4929-98eb-179149f9ec20"
+          (reference "#PWR04") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/337b375c-7c5c-473c-8489-9e0cfaf09fcf"
+          (reference "#PWR062") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/227da19f-1055-426c-8aa6-0726a310546f"
+          (reference "#PWR0102") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/08a030f9-3dfc-48dd-9616-d373e75e86a6"
+          (reference "#PWR0142") (unit 1)
+        )
+      )
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/eb8620a4-a624-49a7-b97c-d559725924be"
+          (reference "#PWR02") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/29cf11cc-0f55-4c38-97ed-f53d3f36699b"
+          (reference "#PWR06") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/3a8df297-551b-4835-9aaa-0222bfd27ad7"
+          (reference "#PWR010") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/3c820295-26d0-4257-bd71-4f6e9aaf61b9"
+          (reference "#PWR019") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317"
+          (reference "#PWR023") (unit 1)
+        )
+      )
+      (project "PowerBoard_cavity_20230711"
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/fd140234-2fec-4701-bb8a-48f4a387040e"
+          (reference "#PWR023") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/348ef316-cafc-4412-a466-8dca5ac8871a"
+          (reference "#PWR065") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/daf8e39e-206f-4ab0-870d-a8f70f53a9e2"
+          (reference "#PWR035") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/e84a52f0-12ad-4bb8-a5f2-33e14a64a1d8"
+          (reference "#PWR071") (unit 1)
+        )
+      )
+      (project "5V,3.3V,2.5V1.8V"
+        (path "/d66a8fb4-6eba-4ae6-ace3-52941335bc47"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Radar:outline") (at 82.55 121.92 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9b37f939-d89b-4e97-918f-a0aea37e1e7b)
+    (property "Reference" "outline1" (at 88.9 122.555 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "~" (at 82.55 120.65 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Music_Lab:Outline_9x4_cavity_20230711" (at 82.55 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 82.55 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d2790691-26f5-4ba0-9659-c015b1ea4774))
+    (instances
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317"
+          (reference "outline1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (sheet (at 133.35 71.12) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 29cf11cc-0f55-4c38-97ed-f53d3f36699b)
+    (property "Sheetname" "+5.5V（LM317）1" (at 133.35 70.4084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "+5.5V（LM317）.kicad_sch" (at 133.35 75.5146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 133.35 82.55) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3a8df297-551b-4835-9aaa-0222bfd27ad7)
+    (property "Sheetname" "+5.5V（LM317）2" (at 133.35 81.8384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "+5.5V（LM317）.kicad_sch" (at 133.35 86.9446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 87.63 78.74) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3c820295-26d0-4257-bd71-4f6e9aaf61b9)
+    (property "Sheetname" "+6V(LM317)" (at 87.63 78.0284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "+6V(LM317).kicad_sch" (at 87.63 83.1346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 87.63 63.5) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c32d382e-085b-4669-bfaf-eaeb0519ff50)
+    (property "Sheetname" "+8V（LM317）" (at 87.63 62.7884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "+8V（LM317）.kicad_sch" (at 87.63 67.8946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 133.35 60.96) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid eb8620a4-a624-49a7-b97c-d559725924be)
+    (property "Sheetname" "+5.5V（LM317）" (at 133.35 60.2484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "+5.5V（LM317）.kicad_sch" (at 133.35 65.3546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317" (page "1"))
+      )
+    )
+  )
+
+  (sheet (at 88.9 92.71) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f5721f2f-1461-4050-9e6d-7d8aaf1df7f3)
+    (property "Sheetname" "+6V(LM317)1" (at 88.9 91.9984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "+6V(LM317).kicad_sch" (at 88.9 97.1046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

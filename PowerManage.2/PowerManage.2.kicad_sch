@@ -1,0 +1,87 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 32556704-de3f-4929-98eb-179149f9ec20)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "+3.3V(LD56100DPU33R)" (at 0 0 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ca0809db-0f6d-4458-bd98-305db37a7ac6)
+  )
+
+  (sheet (at 95.25 21.59) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1a07b1bd-36ea-4c90-9d69-f15636dd5817)
+    (property "Sheetname" "+2.5V(TPS7A2025PDQNR)" (at 95.25 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "2d5.kicad_sch" (at 95.25 25.9846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PowerManage.2"
+        (path "/32556704-de3f-4929-98eb-179149f9ec20" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 36.83 21.59) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 684f054b-c8dd-4063-997c-ef295a1d111c)
+    (property "Sheetname" "+1.8V(TPS7A2018PDBVR)" (at 36.83 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "1d8.kicad_sch" (at 36.83 25.9846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PowerManage.2"
+        (path "/32556704-de3f-4929-98eb-179149f9ec20" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 123.19 21.59) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d891f735-2d02-40ed-9fe6-6f97022984d8)
+    (property "Sheetname" "+5V(TPS7A2050PDQNR)" (at 123.19 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "5d5.kicad_sch" (at 123.19 25.9846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PowerManage.2"
+        (path "/32556704-de3f-4929-98eb-179149f9ec20" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 67.31 21.59) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ff688281-229c-4022-ba4f-39d11a863383)
+    (property "Sheetname" "+3.3V(LD56100DPU33R)" (at 67.31 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "3d3.kicad_sch" (at 67.31 25.9846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PowerManage.2"
+        (path "/32556704-de3f-4929-98eb-179149f9ec20" (page "5"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

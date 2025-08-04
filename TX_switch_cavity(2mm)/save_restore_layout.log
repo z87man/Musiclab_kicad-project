@@ -1,0 +1,15 @@
+06-16 21:28:30 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 172:Plugin executed on: 'win32'
+06-16 21:28:30 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 173:Plugin executed with python version: '3.9.14 (main, Feb 13 2023, 04:48:26) [MSC v.1934 64 bit (AMD64)]'
+06-16 21:28:30 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 174:KiCad build version: 7.0.1
+06-16 21:28:30 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 175:Plugin version: 2.0.8
+
+06-16 21:28:30 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 176:Frame repr: <wx._core.Frame object at 0x000001E93007F790>
+06-16 21:28:30 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 194:Anchor footprint reference is 'U4'
+06-16 21:28:35 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 203:Save layout chosen
+06-16 21:28:35 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 354:Working on D:/SynologyDrive/Project/202205Motion_Radar/PCB/Tx_switch/TX_switch/TX_switch.kicad_pcb
+06-16 21:28:35 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 132:getting a list of all footprints on board
+06-16 21:28:35 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 359:Saving the current board temporary in order to leave current layout intact
+06-16 21:28:35 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 365:Saving board as tempfile: C:\Users\ABC\AppData\Local\Temp\temp_board_file_for_save.kicad_pcb
+06-16 21:28:35 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 370:Loaded temp boardfile: C:\Users\ABC\AppData\Local\Temp\temp_board_file_for_save.kicad_pcb
+06-16 21:28:35 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 371:Get project schematics and layout data
+06-16 21:28:35 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 132:getting a list of all footprints on board

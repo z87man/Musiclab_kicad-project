@@ -1,0 +1,11 @@
+Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C11, C13, C15, C18, C19, C21, C24, C25, C26, C28, C3, C31, C5, C7, C9",0603 usual,16,0.1uF,
+"C10, C12, C14, C16, C17, C2, C20, C22, C23, C27, C29, C30, C32, C4, C6, C8",0603 usual,16,1uf,
+"J1, J12, J13, J2, J3, J4, J5, J6",PinHeader_1x02_P2.54mm_Vertical,8,Conn_01x02_Pin,
+"J7, J8, J9",PinHeader_1x03_P2.54mm_Vertical,3,Conn_01x03_Pin,
+"TP1, TP2",TestPoint_Plated_Hole_D1.6mm,2,TestPoint,
+TP3,Outline_7x2,1,TestPoint,
+"U1, U5",DFN-8_1.2x1.6mm,2,LD56100DPU30R,
+"U2, U6",SOT_23_1.45mm,2,TPS7A2018PDBVR,
+"U3, U8",Texas_X2SON-4_1x1mm_P0.65mm,2,TPS7A2025PDQNR,
+"U4, U7",Texas_X2SON-4_1x1mm_P0.65mm,2,TPS7A2050PDQNR,

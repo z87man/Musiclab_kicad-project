@@ -1,0 +1,71 @@
+07-14 14:31:33 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 400:Plugin executed on: 'win32'
+07-14 14:31:33 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 401:Plugin executed with python version: '3.9.14 (main, Feb 13 2023, 04:48:26) [MSC v.1934 64 bit (AMD64)]'
+07-14 14:31:33 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 402:KiCad build version: 7.0.1
+07-14 14:31:33 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 403:Plugin version: 2.1.0
+07-14 14:31:33 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 404:Frame repr: <wx._core.Frame object at 0x000001F289C1D3A0>
+07-14 14:31:33 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 428:Preparing replicator with SMA1 as a reference
+07-14 14:31:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 116:getting a list of all footprints on board
+07-14 14:31:33 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 476:source anchor footprint is 'SMA1'
+Located on: ['RX_singleChannel']
+With filenames: ['RX_singleChannel.kicad_sch']
+With sheet_id:['RX_singleChannel']
+07-14 14:31:33 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 483:Corresponding footprints are 
+[('SMA7', ['RX_singleChannel3']), ('SMA5', ['RX_singleChannel2']), ('SMA3', ['RX_singleChannel1']), ('SMA1', ['RX_singleChannel'])]
+07-14 14:31:33 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 495:Showing dialog
+07-14 14:31:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'RX_singleChannel', file:'RX_singleChannel.kicad_sch'
+07-14 14:31:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['RX_singleChannel1'], ['RX_singleChannel2'], ['RX_singleChannel3']]
+07-14 14:31:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['RX_singleChannel']
+07-14 14:31:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
+07-14 14:31:33 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 501:Toolbar position: wx.Point(-99, 105)
+07-14 14:31:33 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 506:Dialog position: wx.Point(-461, 105)
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'RX_singleChannel', file:'RX_singleChannel.kicad_sch'
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['RX_singleChannel1'], ['RX_singleChannel2'], ['RX_singleChannel3']]
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 248:Replicating layout
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 239:Starting replication of sheets: [['RX_singleChannel1'], ['RX_singleChannel2'], ['RX_singleChannel3']]
+on level: ['RX_singleChannel']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+07-14 14:31:36 root 340:updating GUI message: 'Preparing for replication'
+07-14 14:31:36 root 345:updating GUI with: 0
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 309:Getting the list of source footprints
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 319:Getting the list of all the remaining footprints
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 326:Getting source tracks
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 330:Getting source zones
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 334:Getting source text items
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 338:Getting source drawing items
+07-14 14:31:36 root 340:updating GUI message: 'Replicating footprints'
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 754:Replicating footprints
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['RX_singleChannel1']
+07-14 14:31:36 root 345:updating GUI with: 21
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['RX_singleChannel2']
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['RX_singleChannel3']
+07-14 14:31:36 root 345:updating GUI with: 90
+07-14 14:31:36 root 340:updating GUI message: 'Replicating tracks'
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 924:Replicating tracks
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['RX_singleChannel1']
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['RX_singleChannel1'] :[('Net-(U4A-in+)', 'Net-(U8A-in+)'), ('Net-(R7-Pad1)', 'Net-(R21-Pad1)'), ('Net-(C16-Pad1)', 'Net-(C34-Pad1)'), ('Net-(U3-LO)', 'Net-(U7-LO)'), ('unconnected-(U1-NC-Pad8)', 'unconnected-(U5-NC-Pad8)'), ('Net-(C15-Pad1)', 'Net-(C33-Pad1)'), ('Net-(J6-Pin_1)', 'Net-(J10-Pin_1)'), ('Net-(U3-RF)', 'Net-(U7-RF)'), ('+5V', '+5V'), ('Net-(C12-Pad1)', 'Net-(C31-Pad1)'), ('/RX_singleChannel/IF', '/RX_singleChannel1/IF'), ('GND', 'GND'), ('Net-(J2-Pin_2)', 'Net-(J8-Pin_2)'), ('Net-(J1-Pin_1)', 'Net-(J5-Pin_1)'), ('Net-(C11-Pad2)', 'Net-(C30-Pad2)'), ('unconnected-(U1-NC-Pad5)', 'unconnected-(U5-NC-Pad5)'), ('Net-(U4C-Out)', 'Net-(U8C-Out)'), ('Net-(C13-Pad1)', 'Net-(C32-Pad1)'), ('Net-(J3-Pin_2)', 'Net-(J9-Pin_2)'), ('Net-(J3-Pin_1)', 'Net-(J9-Pin_1)'), ('Net-(J1-Pin_2)', 'Net-(J5-Pin_2)'), ('Net-(U1-in-)', 'Net-(U5-in-)'), ('+2.5V', '+2.5V'), ('unconnected-(U1-NC-Pad1)', 'unconnected-(U5-NC-Pad1)'), ('Net-(U4D-Out)', 'Net-(U8D-Out)'), ('Net-(C2-Pad1)', 'Net-(C14-Pad1)'), ('Net-(C7-Pad2)', 'Net-(C26-Pad2)'), ('Net-(U2-RFin)', 'Net-(U6-RFin)'), ('Net-(U2-RFout&DCin)', 'Net-(U6-RFout&DCin)')]
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['RX_singleChannel2']
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['RX_singleChannel2'] :[('Net-(C7-Pad2)', 'Net-(C41-Pad2)'), ('Net-(R7-Pad1)', 'Net-(R35-Pad1)'), ('Net-(U3-LO)', 'Net-(U11-LO)'), ('unconnected-(U1-NC-Pad8)', 'unconnected-(U9-NC-Pad8)'), ('unconnected-(U1-NC-Pad1)', 'unconnected-(U9-NC-Pad1)'), ('Net-(U4A-in+)', 'Net-(U12A-in+)'), ('Net-(C2-Pad1)', 'Net-(C37-Pad1)'), ('unconnected-(U1-NC-Pad5)', 'unconnected-(U9-NC-Pad5)'), ('Net-(C12-Pad1)', 'Net-(C46-Pad1)'), ('Net-(C13-Pad1)', 'Net-(C47-Pad1)'), ('Net-(U1-in-)', 'Net-(U9-in-)'), ('+5V', '+5V'), ('Net-(U2-RFin)', 'Net-(U10-RFin)'), ('Net-(J6-Pin_1)', 'Net-(J15-Pin_1)'), ('GND', 'GND'), ('Net-(J3-Pin_2)', 'Net-(J14-Pin_2)'), ('Net-(C15-Pad1)', 'Net-(C48-Pad1)'), ('Net-(C11-Pad2)', 'Net-(C45-Pad2)'), ('Net-(U3-RF)', 'Net-(U11-RF)'), ('Net-(J1-Pin_1)', 'Net-(J12-Pin_1)'), ('Net-(J3-Pin_1)', 'Net-(J14-Pin_1)'), ('Net-(U4C-Out)', 'Net-(U12C-Out)'), ('Net-(U4D-Out)', 'Net-(U12D-Out)'), ('Net-(U2-RFout&DCin)', 'Net-(U10-RFout&DCin)'), ('Net-(J2-Pin_2)', 'Net-(J13-Pin_2)'), ('/RX_singleChannel/IF', '/RX_singleChannel2/IF'), ('+2.5V', '+2.5V'), ('Net-(J1-Pin_2)', 'Net-(J12-Pin_2)'), ('Net-(C16-Pad1)', 'Net-(C49-Pad1)')]
+07-14 14:31:36 root 345:updating GUI with: 45
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['RX_singleChannel3']
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['RX_singleChannel3'] :[('Net-(J3-Pin_2)', 'Net-(J19-Pin_2)'), ('unconnected-(U1-NC-Pad8)', 'unconnected-(U13-NC-Pad8)'), ('Net-(J1-Pin_2)', 'Net-(J17-Pin_2)'), ('Net-(C15-Pad1)', 'Net-(C63-Pad1)'), ('Net-(U1-in-)', 'Net-(U13-in-)'), ('Net-(J2-Pin_2)', 'Net-(J18-Pin_2)'), ('Net-(U4A-in+)', 'Net-(U16A-in+)'), ('Net-(U4C-Out)', 'Net-(U16C-Out)'), ('unconnected-(U1-NC-Pad1)', 'unconnected-(U13-NC-Pad1)'), ('+5V', '+5V'), ('Net-(U2-RFout&DCin)', 'Net-(U14-RFout&DCin)'), ('GND', 'GND'), ('Net-(C13-Pad1)', 'Net-(C62-Pad1)'), ('Net-(J6-Pin_1)', 'Net-(J20-Pin_1)'), ('Net-(U4D-Out)', 'Net-(U16D-Out)'), ('Net-(U3-RF)', 'Net-(U15-RF)'), ('Net-(J3-Pin_1)', 'Net-(J19-Pin_1)'), ('Net-(C16-Pad1)', 'Net-(C64-Pad1)'), ('Net-(C7-Pad2)', 'Net-(C56-Pad2)'), ('Net-(J1-Pin_1)', 'Net-(J17-Pin_1)'), ('Net-(R7-Pad1)', 'Net-(R49-Pad1)'), ('/RX_singleChannel/IF', '/RX_singleChannel3/IF'), ('Net-(C12-Pad1)', 'Net-(C61-Pad1)'), ('+2.5V', '+2.5V'), ('Net-(U3-LO)', 'Net-(U15-LO)'), ('Net-(C2-Pad1)', 'Net-(C52-Pad1)'), ('unconnected-(U1-NC-Pad5)', 'unconnected-(U13-NC-Pad5)'), ('Net-(C11-Pad2)', 'Net-(C60-Pad2)'), ('Net-(U2-RFin)', 'Net-(U14-RFin)')]
+07-14 14:31:36 root 340:updating GUI message: 'Replicating zones'
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 994:Replicating zones
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['RX_singleChannel1']
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['RX_singleChannel1'] :[('Net-(U4A-in+)', 'Net-(U8A-in+)'), ('Net-(R7-Pad1)', 'Net-(R21-Pad1)'), ('Net-(C16-Pad1)', 'Net-(C34-Pad1)'), ('Net-(U3-LO)', 'Net-(U7-LO)'), ('unconnected-(U1-NC-Pad8)', 'unconnected-(U5-NC-Pad8)'), ('Net-(C15-Pad1)', 'Net-(C33-Pad1)'), ('Net-(J6-Pin_1)', 'Net-(J10-Pin_1)'), ('Net-(U3-RF)', 'Net-(U7-RF)'), ('+5V', '+5V'), ('Net-(C12-Pad1)', 'Net-(C31-Pad1)'), ('/RX_singleChannel/IF', '/RX_singleChannel1/IF'), ('GND', 'GND'), ('Net-(J2-Pin_2)', 'Net-(J8-Pin_2)'), ('Net-(J1-Pin_1)', 'Net-(J5-Pin_1)'), ('Net-(C11-Pad2)', 'Net-(C30-Pad2)'), ('unconnected-(U1-NC-Pad5)', 'unconnected-(U5-NC-Pad5)'), ('Net-(U4C-Out)', 'Net-(U8C-Out)'), ('Net-(C13-Pad1)', 'Net-(C32-Pad1)'), ('Net-(J3-Pin_2)', 'Net-(J9-Pin_2)'), ('Net-(J3-Pin_1)', 'Net-(J9-Pin_1)'), ('Net-(J1-Pin_2)', 'Net-(J5-Pin_2)'), ('Net-(U1-in-)', 'Net-(U5-in-)'), ('+2.5V', '+2.5V'), ('unconnected-(U1-NC-Pad1)', 'unconnected-(U5-NC-Pad1)'), ('Net-(U4D-Out)', 'Net-(U8D-Out)'), ('Net-(C2-Pad1)', 'Net-(C14-Pad1)'), ('Net-(C7-Pad2)', 'Net-(C26-Pad2)'), ('Net-(U2-RFin)', 'Net-(U6-RFin)'), ('Net-(U2-RFout&DCin)', 'Net-(U6-RFout&DCin)')]
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['RX_singleChannel2']
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['RX_singleChannel2'] :[('Net-(C7-Pad2)', 'Net-(C41-Pad2)'), ('Net-(R7-Pad1)', 'Net-(R35-Pad1)'), ('Net-(U3-LO)', 'Net-(U11-LO)'), ('unconnected-(U1-NC-Pad8)', 'unconnected-(U9-NC-Pad8)'), ('unconnected-(U1-NC-Pad1)', 'unconnected-(U9-NC-Pad1)'), ('Net-(U4A-in+)', 'Net-(U12A-in+)'), ('Net-(C2-Pad1)', 'Net-(C37-Pad1)'), ('unconnected-(U1-NC-Pad5)', 'unconnected-(U9-NC-Pad5)'), ('Net-(C12-Pad1)', 'Net-(C46-Pad1)'), ('Net-(C13-Pad1)', 'Net-(C47-Pad1)'), ('Net-(U1-in-)', 'Net-(U9-in-)'), ('+5V', '+5V'), ('Net-(U2-RFin)', 'Net-(U10-RFin)'), ('Net-(J6-Pin_1)', 'Net-(J15-Pin_1)'), ('GND', 'GND'), ('Net-(J3-Pin_2)', 'Net-(J14-Pin_2)'), ('Net-(C15-Pad1)', 'Net-(C48-Pad1)'), ('Net-(C11-Pad2)', 'Net-(C45-Pad2)'), ('Net-(U3-RF)', 'Net-(U11-RF)'), ('Net-(J1-Pin_1)', 'Net-(J12-Pin_1)'), ('Net-(J3-Pin_1)', 'Net-(J14-Pin_1)'), ('Net-(U4C-Out)', 'Net-(U12C-Out)'), ('Net-(U4D-Out)', 'Net-(U12D-Out)'), ('Net-(U2-RFout&DCin)', 'Net-(U10-RFout&DCin)'), ('Net-(J2-Pin_2)', 'Net-(J13-Pin_2)'), ('/RX_singleChannel/IF', '/RX_singleChannel2/IF'), ('+2.5V', '+2.5V'), ('Net-(J1-Pin_2)', 'Net-(J12-Pin_2)'), ('Net-(C16-Pad1)', 'Net-(C49-Pad1)')]
+07-14 14:31:36 root 345:updating GUI with: 34
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['RX_singleChannel3']
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['RX_singleChannel3'] :[('Net-(J3-Pin_2)', 'Net-(J19-Pin_2)'), ('unconnected-(U1-NC-Pad8)', 'unconnected-(U13-NC-Pad8)'), ('Net-(J1-Pin_2)', 'Net-(J17-Pin_2)'), ('Net-(C15-Pad1)', 'Net-(C63-Pad1)'), ('Net-(U1-in-)', 'Net-(U13-in-)'), ('Net-(J2-Pin_2)', 'Net-(J18-Pin_2)'), ('Net-(U4A-in+)', 'Net-(U16A-in+)'), ('Net-(U4C-Out)', 'Net-(U16C-Out)'), ('unconnected-(U1-NC-Pad1)', 'unconnected-(U13-NC-Pad1)'), ('+5V', '+5V'), ('Net-(U2-RFout&DCin)', 'Net-(U14-RFout&DCin)'), ('GND', 'GND'), ('Net-(C13-Pad1)', 'Net-(C62-Pad1)'), ('Net-(J6-Pin_1)', 'Net-(J20-Pin_1)'), ('Net-(U4D-Out)', 'Net-(U16D-Out)'), ('Net-(U3-RF)', 'Net-(U15-RF)'), ('Net-(J3-Pin_1)', 'Net-(J19-Pin_1)'), ('Net-(C16-Pad1)', 'Net-(C64-Pad1)'), ('Net-(C7-Pad2)', 'Net-(C56-Pad2)'), ('Net-(J1-Pin_1)', 'Net-(J17-Pin_1)'), ('Net-(R7-Pad1)', 'Net-(R49-Pad1)'), ('/RX_singleChannel/IF', '/RX_singleChannel3/IF'), ('Net-(C12-Pad1)', 'Net-(C61-Pad1)'), ('+2.5V', '+2.5V'), ('Net-(U3-LO)', 'Net-(U15-LO)'), ('Net-(C2-Pad1)', 'Net-(C52-Pad1)'), ('unconnected-(U1-NC-Pad5)', 'unconnected-(U13-NC-Pad5)'), ('Net-(C11-Pad2)', 'Net-(C60-Pad2)'), ('Net-(U2-RFin)', 'Net-(U14-RFin)')]
+07-14 14:31:36 root 340:updating GUI message: 'Replicating text'
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1083:Replicating text
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['RX_singleChannel1']
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['RX_singleChannel2']
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['RX_singleChannel3']
+07-14 14:31:36 root 340:updating GUI message: 'Replicating drawings'
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1134:Replicating drawings
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['RX_singleChannel1']
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['RX_singleChannel2']
+07-14 14:31:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['RX_singleChannel3']
+07-14 14:31:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 264:Replication complete

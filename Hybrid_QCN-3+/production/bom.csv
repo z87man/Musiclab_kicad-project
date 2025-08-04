@@ -1,0 +1,5 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+IC2,Hybrid_QCN3,1,Hybrid_QCN-3+,
+R1,0402,1,R,
+"SMA1, SMA2, SMA3",SMA_Edge_KD_2mm,3,~,
+outline1,Outline_1.5x1,1,~,

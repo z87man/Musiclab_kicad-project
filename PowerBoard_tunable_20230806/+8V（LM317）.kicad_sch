@@ -1,0 +1,1965 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 1d832a69-4866-4624-88d0-900310420567)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "Connector:Conn_01x02_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Conn_01x02_Pin" (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_locked" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "ki_keywords" "connector" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Generic connector, single row, 01x02, script generated" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Conn_01x02_Pin_1_1"
+        (polyline
+          (pts
+            (xy 1.27 -2.54)
+            (xy 0.8636 -2.54)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy 0.8636 0)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 0.8636 -2.413) (end 0 -2.667)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (rectangle (start 0.8636 0.127) (end 0 -0.127)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (pin passive line (at 5.08 0 180) (length 3.81)
+          (name "Pin_1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 -2.54 180) (length 3.81)
+          (name "Pin_2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 0.254 1.778 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "C_Small" (at 0.254 -2.032 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "capacitor cap" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Unpolarized capacitor, small symbol" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "C_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "C_Small_0_1"
+        (polyline
+          (pts
+            (xy -1.524 -0.508)
+            (xy 1.524 -0.508)
+          )
+          (stroke (width 0.3302) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.524 0.508)
+            (xy 1.524 0.508)
+          )
+          (stroke (width 0.3048) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "C_Small_1_1"
+        (pin passive line (at 0 2.54 270) (length 2.032)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -2.54 90) (length 2.032)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:R_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "R" (at 0.762 0.508 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "R_Small" (at 0.762 -1.016 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "R resistor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Resistor, small symbol" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "R_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "R_Small_0_1"
+        (rectangle (start -0.762 1.778) (end 0.762 -1.778)
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "R_Small_1_1"
+        (pin passive line (at 0 2.54 270) (length 0.762)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -2.54 90) (length 0.762)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Radar:DC_LM317MDCYR" (in_bom yes) (on_board yes)
+      (property "Reference" "IC" (at 34.29 7.62 0)
+        (effects (font (size 1.27 1.27)) (justify left top))
+      )
+      (property "Value" "DC_LM317MDCYR" (at 34.29 5.08 0)
+        (effects (font (size 1.27 1.27)) (justify left top))
+      )
+      (property "Footprint" "SOT230P700X180-4N" (at 34.29 -94.92 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "Datasheet" "http://www.ti.com/lit/gpn/lm317m" (at 34.29 -194.92 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "Height" "1.8" (at 34.29 -394.92 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "Mouser Part Number" "595-LM317MDCYR" (at 34.29 -494.92 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM317MDCYR?qs=JS6RUWRH9DWKuMPAAfpOMw%3D%3D" (at 34.29 -594.92 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "Manufacturer_Name" "Texas Instruments" (at 34.29 -694.92 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "Manufacturer_Part_Number" "LM317MDCYR" (at 34.29 -794.92 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "ki_description" "3/4 Pin 500mA Adjustable Positive Voltage Regulator" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "DC_LM317MDCYR_1_1"
+        (rectangle (start 5.08 2.54) (end 33.02 -7.62)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (pin passive line (at 0 0 0) (length 5.08)
+          (name "ADJUST" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -2.54 0) (length 5.08)
+          (name "OUTPUT_1" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -5.08 0) (length 5.08)
+          (name "INPUT" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 38.1 0 180) (length 5.08)
+          (name "OUTPUT_2" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Radar:DC_Socket_4840.2211" (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 16.51 7.62 0)
+        (effects (font (size 1.27 1.27)) (justify left top))
+      )
+      (property "Value" "DC_Socket_4840.2211" (at 16.51 5.08 0)
+        (effects (font (size 1.27 1.27)) (justify left top))
+      )
+      (property "Footprint" "48402211" (at 16.51 -94.92 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "Datasheet" "http://www.schurterinc.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_4840.2211.pdf" (at 16.51 -194.92 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "Height" "11" (at 16.51 -394.92 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "Mouser Part Number" "693-4840.2211" (at 16.51 -494.92 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Schurter/4840.2211?qs=wwP%252BWDYHj0YnjLRL9j928g%3D%3D" (at 16.51 -594.92 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "Manufacturer_Name" "SCHURTER" (at 16.51 -694.92 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "Manufacturer_Part_Number" "4840.2211" (at 16.51 -794.92 0)
+        (effects (font (size 1.27 1.27)) (justify left top) hide)
+      )
+      (property "ki_description" "DC Power Connectors DC SOCKET 2.35MM PCB MOUNT" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "DC_Socket_4840.2211_1_1"
+        (rectangle (start 5.08 2.54) (end 15.24 -5.08)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (pin passive line (at 0 0 0) (length 5.08)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -2.54 0) (length 5.08)
+          (name "2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 20.32 0 180) (length 5.08)
+          (name "3" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+  (junction (at 167.64 95.25) (diameter 0) (color 0 0 0 0)
+    (uuid 005dd151-c034-49b1-9d7e-4de8fe6f9542)
+  )
+  (junction (at 107.95 52.07) (diameter 0) (color 0 0 0 0)
+    (uuid 30066a3a-1c6b-4904-9455-c43aac60c788)
+  )
+  (junction (at 124.46 50.8) (diameter 0) (color 0 0 0 0)
+    (uuid 3f02b098-f6bc-4413-ab65-c7646ac83bd7)
+  )
+  (junction (at 107.95 64.77) (diameter 0) (color 0 0 0 0)
+    (uuid 593b289e-872d-4ee3-951e-5792c6980b08)
+  )
+  (junction (at 124.46 64.77) (diameter 0) (color 0 0 0 0)
+    (uuid 70c8b136-f669-4b22-8732-795a207e524c)
+  )
+  (junction (at 167.64 50.8) (diameter 0) (color 0 0 0 0)
+    (uuid 79ceedab-3506-4849-92dc-7a500f2e105c)
+  )
+  (junction (at 127 69.85) (diameter 0) (color 0 0 0 0)
+    (uuid 7fcfaea9-4635-4345-92e6-25b4fdcc29bd)
+  )
+  (junction (at 167.64 64.77) (diameter 0) (color 0 0 0 0)
+    (uuid bad10072-24aa-44d4-8775-5777302ed3da)
+  )
+  (junction (at 167.64 90.17) (diameter 0) (color 0 0 0 0)
+    (uuid bd9bc498-b817-40c5-b84d-6a4cb99992b0)
+  )
+
+  (wire (pts (xy 167.64 50.8) (xy 167.64 64.77))
+    (stroke (width 0) (type default))
+    (uuid 0f6809f4-0c0e-4736-bc91-559c4139a1c3)
+  )
+  (wire (pts (xy 185.42 64.77) (xy 167.64 64.77))
+    (stroke (width 0) (type default))
+    (uuid 0fb582e7-7d04-41d0-9925-600e14b5d6be)
+  )
+  (wire (pts (xy 118.11 67.31) (xy 118.11 50.8))
+    (stroke (width 0) (type default))
+    (uuid 1653e4f3-7711-4493-b6f5-c64444c758de)
+  )
+  (wire (pts (xy 105.41 39.37) (xy 107.95 39.37))
+    (stroke (width 0) (type default))
+    (uuid 17ac0ff6-6e96-402e-8d94-19192072aa97)
+  )
+  (wire (pts (xy 105.41 64.77) (xy 107.95 64.77))
+    (stroke (width 0) (type default))
+    (uuid 19c7bcea-f2a0-43ed-9335-378b56fcdc29)
+  )
+  (wire (pts (xy 107.95 64.77) (xy 124.46 64.77))
+    (stroke (width 0) (type default))
+    (uuid 1a56bbcd-dee8-4502-922d-52689ae496f7)
+  )
+  (wire (pts (xy 167.64 97.79) (xy 167.64 95.25))
+    (stroke (width 0) (type default))
+    (uuid 1c4e6513-b154-496b-9dc4-f112e15918b4)
+  )
+  (wire (pts (xy 107.95 39.37) (xy 107.95 52.07))
+    (stroke (width 0) (type default))
+    (uuid 1ce867ae-48ab-423d-b8d8-ce39caa16496)
+  )
+  (wire (pts (xy 107.95 67.31) (xy 99.06 67.31))
+    (stroke (width 0) (type default))
+    (uuid 20289a32-7541-4f01-96eb-be561dc97ea1)
+  )
+  (wire (pts (xy 127 80.01) (xy 127 77.47))
+    (stroke (width 0) (type default))
+    (uuid 21fafeb5-6f52-48c9-a676-2751b258bdab)
+  )
+  (wire (pts (xy 118.11 50.8) (xy 124.46 50.8))
+    (stroke (width 0) (type default))
+    (uuid 28a97c6e-cffe-48fb-a2aa-b4aa0a3e59d2)
+  )
+  (wire (pts (xy 72.39 64.77) (xy 80.01 64.77))
+    (stroke (width 0) (type default))
+    (uuid 3bc241b2-10ef-44c6-a5a0-93a0946d3bee)
+  )
+  (wire (pts (xy 72.39 39.37) (xy 80.01 39.37))
+    (stroke (width 0) (type default))
+    (uuid 4d53e7a6-e688-4179-bb6b-973c4211a47a)
+  )
+  (wire (pts (xy 124.46 60.96) (xy 124.46 64.77))
+    (stroke (width 0) (type default))
+    (uuid 546ede99-63d2-4046-ad09-743842c4eaaf)
+  )
+  (wire (pts (xy 76.2 77.47) (xy 86.36 77.47))
+    (stroke (width 0) (type default))
+    (uuid 5aa1ec5d-10b0-4ca3-b729-70cb9dc7bc4b)
+  )
+  (wire (pts (xy 124.46 50.8) (xy 167.64 50.8))
+    (stroke (width 0) (type default))
+    (uuid 5dd777ab-3abd-4e93-97f1-6f5356ce4f9e)
+  )
+  (wire (pts (xy 107.95 64.77) (xy 107.95 67.31))
+    (stroke (width 0) (type default))
+    (uuid 60eedf1f-7389-4ca3-b7de-8065056a36a4)
+  )
+  (wire (pts (xy 105.41 69.85) (xy 127 69.85))
+    (stroke (width 0) (type default))
+    (uuid 6824bc53-2bbc-44cd-ab73-cb487f1cb788)
+  )
+  (wire (pts (xy 127 72.39) (xy 127 69.85))
+    (stroke (width 0) (type default))
+    (uuid 7139c682-128c-4cc4-a4e5-cba20f788a46)
+  )
+  (wire (pts (xy 105.41 69.85) (xy 105.41 97.79))
+    (stroke (width 0) (type default))
+    (uuid 722cebe2-78e8-421f-ba99-25892d7c377a)
+  )
+  (wire (pts (xy 167.64 64.77) (xy 167.64 90.17))
+    (stroke (width 0) (type default))
+    (uuid 7c04c88e-adc2-484d-b43d-8cd157ab3226)
+  )
+  (wire (pts (xy 82.55 64.77) (xy 100.33 64.77))
+    (stroke (width 0) (type default))
+    (uuid 8392f21b-6c8e-480a-afe2-d22a87d10d2d)
+  )
+  (wire (pts (xy 99.06 67.31) (xy 99.06 77.47))
+    (stroke (width 0) (type default))
+    (uuid 8542cf7b-1e9e-4bb5-86e0-93cd35ea8477)
+  )
+  (wire (pts (xy 105.41 97.79) (xy 111.76 97.79))
+    (stroke (width 0) (type default))
+    (uuid 8560f758-5e80-4d14-a557-0ffeadf15451)
+  )
+  (wire (pts (xy 82.55 39.37) (xy 100.33 39.37))
+    (stroke (width 0) (type default))
+    (uuid 9e5925f7-99bc-46d2-bc17-227df50de063)
+  )
+  (wire (pts (xy 167.64 95.25) (xy 177.8 95.25))
+    (stroke (width 0) (type default))
+    (uuid a09ee563-9b14-4b7d-83e4-bd1c026b459a)
+  )
+  (wire (pts (xy 72.39 52.07) (xy 80.01 52.07))
+    (stroke (width 0) (type default))
+    (uuid a323b635-479b-434e-9124-78822e59c286)
+  )
+  (wire (pts (xy 128.27 67.31) (xy 118.11 67.31))
+    (stroke (width 0) (type default))
+    (uuid b90db3c0-444e-4f6e-9d2f-56fa7d5f96cc)
+  )
+  (wire (pts (xy 167.64 41.91) (xy 167.64 50.8))
+    (stroke (width 0) (type default))
+    (uuid c79321b9-741e-4e7f-b3e1-3fb7f179127c)
+  )
+  (wire (pts (xy 82.55 52.07) (xy 100.33 52.07))
+    (stroke (width 0) (type default))
+    (uuid dca249f0-2f03-45e4-a89e-1ea099c150c1)
+  )
+  (wire (pts (xy 177.8 90.17) (xy 167.64 90.17))
+    (stroke (width 0) (type default))
+    (uuid df152b08-bd16-466d-bddb-c100234ed776)
+  )
+  (wire (pts (xy 127 69.85) (xy 128.27 69.85))
+    (stroke (width 0) (type default))
+    (uuid e49089a0-ab58-4d23-b805-f8d29b0b4507)
+  )
+  (wire (pts (xy 124.46 50.8) (xy 124.46 55.88))
+    (stroke (width 0) (type default))
+    (uuid eaa7b5e8-f828-48ae-8870-25e0de14653f)
+  )
+  (wire (pts (xy 107.95 52.07) (xy 107.95 64.77))
+    (stroke (width 0) (type default))
+    (uuid ebdba90e-f6fe-4fc2-b3f5-3005b8422b61)
+  )
+  (wire (pts (xy 185.42 41.91) (xy 167.64 41.91))
+    (stroke (width 0) (type default))
+    (uuid f3ef8652-08ac-45b3-a463-051398e6a5c7)
+  )
+  (wire (pts (xy 91.44 77.47) (xy 93.98 77.47))
+    (stroke (width 0) (type default))
+    (uuid f4a1b980-2d70-4059-8093-c7ba038cc62a)
+  )
+  (wire (pts (xy 124.46 64.77) (xy 128.27 64.77))
+    (stroke (width 0) (type default))
+    (uuid f8853b07-8195-427c-abda-d33a0f07105a)
+  )
+  (wire (pts (xy 66.04 77.47) (xy 73.66 77.47))
+    (stroke (width 0) (type default))
+    (uuid f9d44dc4-a802-4b0a-8763-b32ea7801c5d)
+  )
+  (wire (pts (xy 105.41 52.07) (xy 107.95 52.07))
+    (stroke (width 0) (type default))
+    (uuid fdcb7df2-559c-4561-a1b7-3ade1c10899d)
+  )
+  (wire (pts (xy 167.64 64.77) (xy 166.37 64.77))
+    (stroke (width 0) (type default))
+    (uuid feee1264-9f56-473b-b5b5-f7a3d5bcbfc5)
+  )
+
+  (text "+8V" (at 62.23 54.61 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 37ba332a-e921-4a67-82f8-be8f27ca24e9)
+  )
+  (text "+12V" (at 57.15 78.74 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid bc07a246-1312-44db-9dce-06cb51bf2808)
+  )
+  (text "+10V" (at 60.96 66.04 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d07869cf-c8d7-404e-a6f6-f9fd7696f168)
+  )
+  (text "+6V" (at 62.23 43.18 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e158418e-4711-4d5d-824b-98e17f81ed3c)
+  )
+
+  (global_label "input" (shape input) (at 105.41 85.09 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 1c321af3-d920-40db-8520-27838b961418)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 97.7267 85.09 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x02_Pin") (at 187.96 36.83 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 143ba755-7318-4787-9213-ba38f332997d)
+    (property "Reference" "J2" (at 189.23 36.83 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x02_Pin" (at 189.23 39.37 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" (at 187.96 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 187.96 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f9b39632-4ad6-4dc2-be2b-6f8beadc198b))
+    (pin "2" (uuid 4e4b4927-0dc2-4719-a8e8-ef5926516e54))
+    (instances
+      (project "TX_switch_cavity(2mm)"
+        (path "/213a20d8-6998-457f-a48d-25a2e5afc69f"
+          (reference "J2") (unit 1)
+        )
+      )
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/eb8620a4-a624-49a7-b97c-d559725924be"
+          (reference "J2") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/29cf11cc-0f55-4c38-97ed-f53d3f36699b"
+          (reference "J3") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/3a8df297-551b-4835-9aaa-0222bfd27ad7"
+          (reference "J5") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/c32d382e-085b-4669-bfaf-eaeb0519ff50"
+          (reference "J7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 88.9 77.47 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 19f4dbff-6c69-43b7-83aa-0f7eb82e8578)
+    (property "Reference" "R2" (at 88.9 72.39 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "5.6k" (at 88.9 74.93 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 88.9 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 88.9 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 66217492-5b28-4b7f-8465-9ef0d94765de))
+    (pin "2" (uuid 309d70d6-05f2-456a-9004-e9d08686b6f4))
+    (instances
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/eb8620a4-a624-49a7-b97c-d559725924be"
+          (reference "R2") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/29cf11cc-0f55-4c38-97ed-f53d3f36699b"
+          (reference "R3") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/3a8df297-551b-4835-9aaa-0222bfd27ad7"
+          (reference "R5") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/c32d382e-085b-4669-bfaf-eaeb0519ff50"
+          (reference "R3") (unit 1)
+        )
+      )
+      (project "PowerBoard_cavity_20230711"
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/fd140234-2fec-4701-bb8a-48f4a387040e"
+          (reference "R2") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/348ef316-cafc-4412-a466-8dca5ac8871a"
+          (reference "R5") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/daf8e39e-206f-4ab0-870d-a8f70f53a9e2"
+          (reference "R3") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/e84a52f0-12ad-4bb8-a5f2-33e14a64a1d8"
+          (reference "R7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 177.8 92.71 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1b528f5a-7ea6-4f27-8af7-0c30a996fddb)
+    (property "Reference" "C1" (at 180.34 92.0813 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "4.7uF" (at 180.34 94.6213 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_0603 usual" (at 177.8 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 177.8 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 00883942-783c-41cd-a94a-2cdb049a90ed))
+    (pin "2" (uuid f8cec465-a344-4b09-8745-06dc9a037343))
+    (instances
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/eb8620a4-a624-49a7-b97c-d559725924be"
+          (reference "C1") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/29cf11cc-0f55-4c38-97ed-f53d3f36699b"
+          (reference "C2") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/3a8df297-551b-4835-9aaa-0222bfd27ad7"
+          (reference "C3") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/3c820295-26d0-4257-bd71-4f6e9aaf61b9"
+          (reference "C11") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/c32d382e-085b-4669-bfaf-eaeb0519ff50"
+          (reference "C12") (unit 1)
+        )
+      )
+      (project "PowerBoard_cavity_20230711"
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/fd140234-2fec-4701-bb8a-48f4a387040e"
+          (reference "C17") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/348ef316-cafc-4412-a466-8dca5ac8871a"
+          (reference "C51") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/daf8e39e-206f-4ab0-870d-a8f70f53a9e2"
+          (reference "C26") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/e84a52f0-12ad-4bb8-a5f2-33e14a64a1d8"
+          (reference "C52") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 102.87 39.37 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1e588d0c-45e0-4538-a054-def0f9d186bd)
+    (property "Reference" "R2" (at 102.87 34.29 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "3.9k" (at 102.87 36.83 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 102.87 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 102.87 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 528dc82e-34e5-4050-a3ee-1e002840f207))
+    (pin "2" (uuid a0416e59-3d35-40b2-912c-f846f0564ce4))
+    (instances
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/eb8620a4-a624-49a7-b97c-d559725924be"
+          (reference "R2") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/29cf11cc-0f55-4c38-97ed-f53d3f36699b"
+          (reference "R3") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/3a8df297-551b-4835-9aaa-0222bfd27ad7"
+          (reference "R5") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/c32d382e-085b-4669-bfaf-eaeb0519ff50"
+          (reference "R12") (unit 1)
+        )
+      )
+      (project "PowerBoard_cavity_20230711"
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/fd140234-2fec-4701-bb8a-48f4a387040e"
+          (reference "R2") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/348ef316-cafc-4412-a466-8dca5ac8871a"
+          (reference "R5") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/daf8e39e-206f-4ab0-870d-a8f70f53a9e2"
+          (reference "R3") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/e84a52f0-12ad-4bb8-a5f2-33e14a64a1d8"
+          (reference "R7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 72.39 52.07 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2790ef4d-6329-4724-8fa6-de6ec687f01d)
+    (property "Reference" "#PWR04" (at 72.39 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 72.39 56.769 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 72.39 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 72.39 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b52a3218-b207-4b8f-858a-9178fa15d26f))
+    (instances
+      (project "PowerManage.2"
+        (path "/32556704-de3f-4929-98eb-179149f9ec20"
+          (reference "#PWR04") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/337b375c-7c5c-473c-8489-9e0cfaf09fcf"
+          (reference "#PWR062") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/227da19f-1055-426c-8aa6-0726a310546f"
+          (reference "#PWR0102") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/08a030f9-3dfc-48dd-9616-d373e75e86a6"
+          (reference "#PWR0142") (unit 1)
+        )
+      )
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/eb8620a4-a624-49a7-b97c-d559725924be"
+          (reference "#PWR02") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/29cf11cc-0f55-4c38-97ed-f53d3f36699b"
+          (reference "#PWR06") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/3a8df297-551b-4835-9aaa-0222bfd27ad7"
+          (reference "#PWR010") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/c32d382e-085b-4669-bfaf-eaeb0519ff50"
+          (reference "#PWR024") (unit 1)
+        )
+      )
+      (project "PowerBoard_cavity_20230711"
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/fd140234-2fec-4701-bb8a-48f4a387040e"
+          (reference "#PWR023") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/348ef316-cafc-4412-a466-8dca5ac8871a"
+          (reference "#PWR065") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/daf8e39e-206f-4ab0-870d-a8f70f53a9e2"
+          (reference "#PWR035") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/e84a52f0-12ad-4bb8-a5f2-33e14a64a1d8"
+          (reference "#PWR071") (unit 1)
+        )
+      )
+      (project "5V,3.3V,2.5V1.8V"
+        (path "/d66a8fb4-6eba-4ae6-ace3-52941335bc47"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 96.52 77.47 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2d97c56d-7bcc-4a3e-b098-87a05eff613e)
+    (property "Reference" "R2" (at 96.52 72.39 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "3.3k" (at 96.52 74.93 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 96.52 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 96.52 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6127a898-6ad7-4eeb-93c3-db9bee03d3c6))
+    (pin "2" (uuid e4c956a5-e471-4d7d-83b6-d64315e553fa))
+    (instances
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/eb8620a4-a624-49a7-b97c-d559725924be"
+          (reference "R2") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/29cf11cc-0f55-4c38-97ed-f53d3f36699b"
+          (reference "R3") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/3a8df297-551b-4835-9aaa-0222bfd27ad7"
+          (reference "R5") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/c32d382e-085b-4669-bfaf-eaeb0519ff50"
+          (reference "R2") (unit 1)
+        )
+      )
+      (project "PowerBoard_cavity_20230711"
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/fd140234-2fec-4701-bb8a-48f4a387040e"
+          (reference "R2") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/348ef316-cafc-4412-a466-8dca5ac8871a"
+          (reference "R5") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/daf8e39e-206f-4ab0-870d-a8f70f53a9e2"
+          (reference "R3") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/e84a52f0-12ad-4bb8-a5f2-33e14a64a1d8"
+          (reference "R7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Radar:DC_LM317MDCYR") (at 128.27 64.77 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 34c63daf-e0eb-49a1-a067-496843637bf6)
+    (property "Reference" "IC1" (at 147.32 58.42 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "DC_LM317DCYR" (at 147.32 60.96 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Music_Lab:DC_LM317_SOT230P700X180-4N" (at 162.56 159.69 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Datasheet" "http://www.ti.com/lit/gpn/lm317m" (at 162.56 259.69 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Height" "1.8" (at 162.56 459.69 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Part Number" "595-LM317MDCYR" (at 162.56 559.69 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM317MDCYR?qs=JS6RUWRH9DWKuMPAAfpOMw%3D%3D" (at 162.56 659.69 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Name" "Texas Instruments" (at 162.56 759.69 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Part_Number" "LM317MDCYR" (at 162.56 859.69 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (pin "1" (uuid d9eaab9c-ec46-4822-9a3a-d5466f7d899f))
+    (pin "2" (uuid 63085da9-7b89-4d78-be0b-9523ea2834a1))
+    (pin "3" (uuid 05e511f9-4e4a-4a95-a414-b0da33cdd6e0))
+    (pin "4" (uuid bce6d948-09bb-4c14-a44f-3d5ec3f3de79))
+    (instances
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/eb8620a4-a624-49a7-b97c-d559725924be"
+          (reference "IC1") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/29cf11cc-0f55-4c38-97ed-f53d3f36699b"
+          (reference "IC2") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/3a8df297-551b-4835-9aaa-0222bfd27ad7"
+          (reference "IC3") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/c32d382e-085b-4669-bfaf-eaeb0519ff50"
+          (reference "IC4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Radar:DC_Socket_4840.2211") (at 111.76 97.79 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 37d3e085-f3bb-4c86-9168-10f953047dbd)
+    (property "Reference" "J9" (at 121.92 91.44 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "DC_Socket_4840.2211" (at 121.92 93.98 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Music_Lab:DC_Socket_48402211" (at 128.27 192.71 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Datasheet" "http://www.schurterinc.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_4840.2211.pdf" (at 128.27 292.71 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Height" "11" (at 128.27 492.71 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Part Number" "693-4840.2211" (at 128.27 592.71 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Schurter/4840.2211?qs=wwP%252BWDYHj0YnjLRL9j928g%3D%3D" (at 128.27 692.71 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Name" "SCHURTER" (at 128.27 792.71 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Part_Number" "4840.2211" (at 128.27 892.71 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (pin "1" (uuid 50581fca-c3b7-4d09-9b37-4d9cf81a5260))
+    (pin "2" (uuid 34480f71-9cb0-48fa-84dc-fe5eb2096bb2))
+    (pin "3" (uuid 4be5291d-a97f-43e9-ae5a-3d2c96a049df))
+    (instances
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/c32d382e-085b-4669-bfaf-eaeb0519ff50"
+          (reference "J9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 127 80.01 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3aea0221-73d1-49de-90db-8e283060f334)
+    (property "Reference" "#PWR04" (at 127 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 127 84.709 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 127 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 127 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ed2510f9-ae6d-4b4c-ae12-5c26f3dae898))
+    (instances
+      (project "PowerManage.2"
+        (path "/32556704-de3f-4929-98eb-179149f9ec20"
+          (reference "#PWR04") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/337b375c-7c5c-473c-8489-9e0cfaf09fcf"
+          (reference "#PWR062") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/227da19f-1055-426c-8aa6-0726a310546f"
+          (reference "#PWR0102") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/08a030f9-3dfc-48dd-9616-d373e75e86a6"
+          (reference "#PWR0142") (unit 1)
+        )
+      )
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/eb8620a4-a624-49a7-b97c-d559725924be"
+          (reference "#PWR02") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/29cf11cc-0f55-4c38-97ed-f53d3f36699b"
+          (reference "#PWR06") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/3a8df297-551b-4835-9aaa-0222bfd27ad7"
+          (reference "#PWR010") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/c32d382e-085b-4669-bfaf-eaeb0519ff50"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "PowerBoard_cavity_20230711"
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/fd140234-2fec-4701-bb8a-48f4a387040e"
+          (reference "#PWR023") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/348ef316-cafc-4412-a466-8dca5ac8871a"
+          (reference "#PWR065") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/daf8e39e-206f-4ab0-870d-a8f70f53a9e2"
+          (reference "#PWR035") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/e84a52f0-12ad-4bb8-a5f2-33e14a64a1d8"
+          (reference "#PWR071") (unit 1)
+        )
+      )
+      (project "5V,3.3V,2.5V1.8V"
+        (path "/d66a8fb4-6eba-4ae6-ace3-52941335bc47"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 102.87 64.77 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3b838c04-116a-4c6e-9c16-beb968b2214f)
+    (property "Reference" "R2" (at 102.87 59.69 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "7k" (at 102.87 62.23 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 102.87 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 102.87 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7efb5c89-a0ef-4e92-97f3-8378826e58da))
+    (pin "2" (uuid 02cad6eb-e2c7-46a1-acd8-556ac7bc0baa))
+    (instances
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/eb8620a4-a624-49a7-b97c-d559725924be"
+          (reference "R2") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/29cf11cc-0f55-4c38-97ed-f53d3f36699b"
+          (reference "R3") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/3a8df297-551b-4835-9aaa-0222bfd27ad7"
+          (reference "R5") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/c32d382e-085b-4669-bfaf-eaeb0519ff50"
+          (reference "R7") (unit 1)
+        )
+      )
+      (project "PowerBoard_cavity_20230711"
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/fd140234-2fec-4701-bb8a-48f4a387040e"
+          (reference "R2") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/348ef316-cafc-4412-a466-8dca5ac8871a"
+          (reference "R5") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/daf8e39e-206f-4ab0-870d-a8f70f53a9e2"
+          (reference "R3") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/e84a52f0-12ad-4bb8-a5f2-33e14a64a1d8"
+          (reference "R7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 124.46 58.42 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 438dedb5-0cb8-4b17-a5bf-9d81917fc194)
+    (property "Reference" "R1" (at 127 57.785 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1k" (at 127 60.325 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 124.46 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 124.46 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bd78b97f-6d04-4036-9380-8e5423d0d279))
+    (pin "2" (uuid 5db99321-254b-48d6-9733-18b398d38aa8))
+    (instances
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/eb8620a4-a624-49a7-b97c-d559725924be"
+          (reference "R1") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/29cf11cc-0f55-4c38-97ed-f53d3f36699b"
+          (reference "R4") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/3a8df297-551b-4835-9aaa-0222bfd27ad7"
+          (reference "R6") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/c32d382e-085b-4669-bfaf-eaeb0519ff50"
+          (reference "R8") (unit 1)
+        )
+      )
+      (project "PowerBoard_cavity_20230711"
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/fd140234-2fec-4701-bb8a-48f4a387040e"
+          (reference "R1") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/348ef316-cafc-4412-a466-8dca5ac8871a"
+          (reference "R6") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/daf8e39e-206f-4ab0-870d-a8f70f53a9e2"
+          (reference "R4") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/e84a52f0-12ad-4bb8-a5f2-33e14a64a1d8"
+          (reference "R8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 132.08 97.79 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4ad4c59f-b227-492f-bf88-dc8c019f3d1b)
+    (property "Reference" "#PWR04" (at 132.08 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 132.08 102.489 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 132.08 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 132.08 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 20de443b-f346-4cab-bf40-7ff5e5b01362))
+    (instances
+      (project "PowerManage.2"
+        (path "/32556704-de3f-4929-98eb-179149f9ec20"
+          (reference "#PWR04") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/337b375c-7c5c-473c-8489-9e0cfaf09fcf"
+          (reference "#PWR062") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/227da19f-1055-426c-8aa6-0726a310546f"
+          (reference "#PWR0102") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/08a030f9-3dfc-48dd-9616-d373e75e86a6"
+          (reference "#PWR0142") (unit 1)
+        )
+      )
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/eb8620a4-a624-49a7-b97c-d559725924be"
+          (reference "#PWR01") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/29cf11cc-0f55-4c38-97ed-f53d3f36699b"
+          (reference "#PWR05") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/3a8df297-551b-4835-9aaa-0222bfd27ad7"
+          (reference "#PWR09") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/c32d382e-085b-4669-bfaf-eaeb0519ff50"
+          (reference "#PWR022") (unit 1)
+        )
+      )
+      (project "PowerBoard_cavity_20230711"
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/fd140234-2fec-4701-bb8a-48f4a387040e"
+          (reference "#PWR03") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/348ef316-cafc-4412-a466-8dca5ac8871a"
+          (reference "#PWR064") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/daf8e39e-206f-4ab0-870d-a8f70f53a9e2"
+          (reference "#PWR034") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/e84a52f0-12ad-4bb8-a5f2-33e14a64a1d8"
+          (reference "#PWR070") (unit 1)
+        )
+      )
+      (project "5V,3.3V,2.5V1.8V"
+        (path "/d66a8fb4-6eba-4ae6-ace3-52941335bc47"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 187.96 41.91 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6272924e-4b2e-4fb7-8963-3038b95cc5e9)
+    (property "Reference" "#PWR04" (at 187.96 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 187.96 46.609 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 187.96 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 187.96 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f1b6f03f-694b-48be-afa3-f58089f7cbf6))
+    (instances
+      (project "PowerManage.2"
+        (path "/32556704-de3f-4929-98eb-179149f9ec20"
+          (reference "#PWR04") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/337b375c-7c5c-473c-8489-9e0cfaf09fcf"
+          (reference "#PWR062") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/227da19f-1055-426c-8aa6-0726a310546f"
+          (reference "#PWR0102") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/08a030f9-3dfc-48dd-9616-d373e75e86a6"
+          (reference "#PWR0142") (unit 1)
+        )
+      )
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/eb8620a4-a624-49a7-b97c-d559725924be"
+          (reference "#PWR04") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/29cf11cc-0f55-4c38-97ed-f53d3f36699b"
+          (reference "#PWR07") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/3a8df297-551b-4835-9aaa-0222bfd27ad7"
+          (reference "#PWR011") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/c32d382e-085b-4669-bfaf-eaeb0519ff50"
+          (reference "#PWR015") (unit 1)
+        )
+      )
+      (project "PowerBoard_cavity_20230711"
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/fd140234-2fec-4701-bb8a-48f4a387040e"
+          (reference "#PWR023") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/348ef316-cafc-4412-a466-8dca5ac8871a"
+          (reference "#PWR065") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/daf8e39e-206f-4ab0-870d-a8f70f53a9e2"
+          (reference "#PWR035") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/e84a52f0-12ad-4bb8-a5f2-33e14a64a1d8"
+          (reference "#PWR071") (unit 1)
+        )
+      )
+      (project "5V,3.3V,2.5V1.8V"
+        (path "/d66a8fb4-6eba-4ae6-ace3-52941335bc47"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 111.76 100.33 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 697f0a84-3e2b-4043-acd1-499dad99951d)
+    (property "Reference" "#PWR04" (at 111.76 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 111.76 105.029 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 111.76 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 111.76 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b5e79e88-bb92-4f66-a373-9ff436483947))
+    (instances
+      (project "PowerManage.2"
+        (path "/32556704-de3f-4929-98eb-179149f9ec20"
+          (reference "#PWR04") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/337b375c-7c5c-473c-8489-9e0cfaf09fcf"
+          (reference "#PWR062") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/227da19f-1055-426c-8aa6-0726a310546f"
+          (reference "#PWR0102") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/08a030f9-3dfc-48dd-9616-d373e75e86a6"
+          (reference "#PWR0142") (unit 1)
+        )
+      )
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/eb8620a4-a624-49a7-b97c-d559725924be"
+          (reference "#PWR01") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/29cf11cc-0f55-4c38-97ed-f53d3f36699b"
+          (reference "#PWR05") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/3a8df297-551b-4835-9aaa-0222bfd27ad7"
+          (reference "#PWR09") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/c32d382e-085b-4669-bfaf-eaeb0519ff50"
+          (reference "#PWR017") (unit 1)
+        )
+      )
+      (project "PowerBoard_cavity_20230711"
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/fd140234-2fec-4701-bb8a-48f4a387040e"
+          (reference "#PWR03") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/348ef316-cafc-4412-a466-8dca5ac8871a"
+          (reference "#PWR064") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/daf8e39e-206f-4ab0-870d-a8f70f53a9e2"
+          (reference "#PWR034") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/e84a52f0-12ad-4bb8-a5f2-33e14a64a1d8"
+          (reference "#PWR070") (unit 1)
+        )
+      )
+      (project "5V,3.3V,2.5V1.8V"
+        (path "/d66a8fb4-6eba-4ae6-ace3-52941335bc47"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 66.04 77.47 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6e010bc0-cdbf-4430-a0f8-6f8cbd143f34)
+    (property "Reference" "#PWR04" (at 66.04 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 66.04 82.169 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 66.04 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 66.04 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1287bdbe-a362-483e-914e-1b3592c381ed))
+    (instances
+      (project "PowerManage.2"
+        (path "/32556704-de3f-4929-98eb-179149f9ec20"
+          (reference "#PWR04") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/337b375c-7c5c-473c-8489-9e0cfaf09fcf"
+          (reference "#PWR062") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/227da19f-1055-426c-8aa6-0726a310546f"
+          (reference "#PWR0102") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/08a030f9-3dfc-48dd-9616-d373e75e86a6"
+          (reference "#PWR0142") (unit 1)
+        )
+      )
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/eb8620a4-a624-49a7-b97c-d559725924be"
+          (reference "#PWR02") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/29cf11cc-0f55-4c38-97ed-f53d3f36699b"
+          (reference "#PWR06") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/3a8df297-551b-4835-9aaa-0222bfd27ad7"
+          (reference "#PWR010") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/c32d382e-085b-4669-bfaf-eaeb0519ff50"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "PowerBoard_cavity_20230711"
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/fd140234-2fec-4701-bb8a-48f4a387040e"
+          (reference "#PWR023") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/348ef316-cafc-4412-a466-8dca5ac8871a"
+          (reference "#PWR065") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/daf8e39e-206f-4ab0-870d-a8f70f53a9e2"
+          (reference "#PWR035") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/e84a52f0-12ad-4bb8-a5f2-33e14a64a1d8"
+          (reference "#PWR071") (unit 1)
+        )
+      )
+      (project "5V,3.3V,2.5V1.8V"
+        (path "/d66a8fb4-6eba-4ae6-ace3-52941335bc47"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 102.87 52.07 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 716ed9c2-5390-4aa8-9893-0f7791934724)
+    (property "Reference" "R2" (at 102.87 46.99 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "5.6k" (at 102.87 49.53 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 102.87 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 102.87 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 230b7973-4402-4c7f-9bc3-88ce8fad6a53))
+    (pin "2" (uuid ff63e02e-b4f4-4cba-a34c-09c3b253c1a9))
+    (instances
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/eb8620a4-a624-49a7-b97c-d559725924be"
+          (reference "R2") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/29cf11cc-0f55-4c38-97ed-f53d3f36699b"
+          (reference "R3") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/3a8df297-551b-4835-9aaa-0222bfd27ad7"
+          (reference "R5") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/c32d382e-085b-4669-bfaf-eaeb0519ff50"
+          (reference "R11") (unit 1)
+        )
+      )
+      (project "PowerBoard_cavity_20230711"
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/fd140234-2fec-4701-bb8a-48f4a387040e"
+          (reference "R2") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/348ef316-cafc-4412-a466-8dca5ac8871a"
+          (reference "R5") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/daf8e39e-206f-4ab0-870d-a8f70f53a9e2"
+          (reference "R3") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/e84a52f0-12ad-4bb8-a5f2-33e14a64a1d8"
+          (reference "R7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 187.96 64.77 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9af2fd74-be31-4181-804e-73469638275d)
+    (property "Reference" "#PWR04" (at 187.96 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 187.96 69.469 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 187.96 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 187.96 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d3755fbd-9674-4174-bd8b-2e936f3d2841))
+    (instances
+      (project "PowerManage.2"
+        (path "/32556704-de3f-4929-98eb-179149f9ec20"
+          (reference "#PWR04") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/337b375c-7c5c-473c-8489-9e0cfaf09fcf"
+          (reference "#PWR062") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/227da19f-1055-426c-8aa6-0726a310546f"
+          (reference "#PWR0102") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/08a030f9-3dfc-48dd-9616-d373e75e86a6"
+          (reference "#PWR0142") (unit 1)
+        )
+      )
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/eb8620a4-a624-49a7-b97c-d559725924be"
+          (reference "#PWR04") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/29cf11cc-0f55-4c38-97ed-f53d3f36699b"
+          (reference "#PWR07") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/3a8df297-551b-4835-9aaa-0222bfd27ad7"
+          (reference "#PWR011") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/c32d382e-085b-4669-bfaf-eaeb0519ff50"
+          (reference "#PWR034") (unit 1)
+        )
+      )
+      (project "PowerBoard_cavity_20230711"
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/fd140234-2fec-4701-bb8a-48f4a387040e"
+          (reference "#PWR023") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/348ef316-cafc-4412-a466-8dca5ac8871a"
+          (reference "#PWR065") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/daf8e39e-206f-4ab0-870d-a8f70f53a9e2"
+          (reference "#PWR035") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/e84a52f0-12ad-4bb8-a5f2-33e14a64a1d8"
+          (reference "#PWR071") (unit 1)
+        )
+      )
+      (project "5V,3.3V,2.5V1.8V"
+        (path "/d66a8fb4-6eba-4ae6-ace3-52941335bc47"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x02_Pin") (at 82.55 46.99 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a20ca86b-4a95-4ee5-af93-646e59efe6f5)
+    (property "Reference" "J2" (at 83.82 46.99 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x02_Pin" (at 83.82 49.53 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 82.55 46.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 82.55 46.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5e171c07-5ee9-4aff-a2a4-ec2c51da19a7))
+    (pin "2" (uuid 68ab0ed9-0ace-43f8-a15a-763be58e2ead))
+    (instances
+      (project "TX_switch_cavity(2mm)"
+        (path "/213a20d8-6998-457f-a48d-25a2e5afc69f"
+          (reference "J2") (unit 1)
+        )
+      )
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/eb8620a4-a624-49a7-b97c-d559725924be"
+          (reference "J2") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/29cf11cc-0f55-4c38-97ed-f53d3f36699b"
+          (reference "J3") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/3a8df297-551b-4835-9aaa-0222bfd27ad7"
+          (reference "J5") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/c32d382e-085b-4669-bfaf-eaeb0519ff50"
+          (reference "J12") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x02_Pin") (at 82.55 34.29 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a5bed08f-994d-4ca1-8dfe-cd9907800a17)
+    (property "Reference" "J2" (at 83.82 34.29 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x02_Pin" (at 83.82 36.83 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 82.55 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 82.55 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8a8f8ebe-1973-4c5c-9cd3-82076fccdf79))
+    (pin "2" (uuid 2b92fd7f-6d4e-4c14-8e62-652d145b41c8))
+    (instances
+      (project "TX_switch_cavity(2mm)"
+        (path "/213a20d8-6998-457f-a48d-25a2e5afc69f"
+          (reference "J2") (unit 1)
+        )
+      )
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/eb8620a4-a624-49a7-b97c-d559725924be"
+          (reference "J2") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/29cf11cc-0f55-4c38-97ed-f53d3f36699b"
+          (reference "J3") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/3a8df297-551b-4835-9aaa-0222bfd27ad7"
+          (reference "J5") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/c32d382e-085b-4669-bfaf-eaeb0519ff50"
+          (reference "J14") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x02_Pin") (at 82.55 59.69 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid acfb3c3a-c5c9-4f61-b99d-3e751eee9e19)
+    (property "Reference" "J2" (at 83.82 59.69 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x02_Pin" (at 83.82 62.23 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 82.55 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 82.55 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1e40feec-032a-4fab-a5d0-3148710cb03d))
+    (pin "2" (uuid 5383a1d2-4bfc-4ef3-9e83-66beb551c450))
+    (instances
+      (project "TX_switch_cavity(2mm)"
+        (path "/213a20d8-6998-457f-a48d-25a2e5afc69f"
+          (reference "J2") (unit 1)
+        )
+      )
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/eb8620a4-a624-49a7-b97c-d559725924be"
+          (reference "J2") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/29cf11cc-0f55-4c38-97ed-f53d3f36699b"
+          (reference "J3") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/3a8df297-551b-4835-9aaa-0222bfd27ad7"
+          (reference "J5") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/c32d382e-085b-4669-bfaf-eaeb0519ff50"
+          (reference "J13") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 127 74.93 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b4aa0414-fe2c-4db0-b929-e16236df2c4b)
+    (property "Reference" "C1" (at 129.54 74.3013 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1uF" (at 129.54 76.8413 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_0603 usual" (at 127 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 127 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3ac4bd02-cf9e-4a89-a9c1-d70df161801e))
+    (pin "2" (uuid 227b8876-1c7f-4439-8a58-895a1ddbfd71))
+    (instances
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/eb8620a4-a624-49a7-b97c-d559725924be"
+          (reference "C1") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/29cf11cc-0f55-4c38-97ed-f53d3f36699b"
+          (reference "C2") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/3a8df297-551b-4835-9aaa-0222bfd27ad7"
+          (reference "C3") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/c32d382e-085b-4669-bfaf-eaeb0519ff50"
+          (reference "C4") (unit 1)
+        )
+      )
+      (project "PowerBoard_cavity_20230711"
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/fd140234-2fec-4701-bb8a-48f4a387040e"
+          (reference "C17") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/348ef316-cafc-4412-a466-8dca5ac8871a"
+          (reference "C51") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/daf8e39e-206f-4ab0-870d-a8f70f53a9e2"
+          (reference "C26") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/e84a52f0-12ad-4bb8-a5f2-33e14a64a1d8"
+          (reference "C52") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 72.39 39.37 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c528fd0b-1cc0-427f-9087-a2660008238d)
+    (property "Reference" "#PWR04" (at 72.39 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 72.39 44.069 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 72.39 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 72.39 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 42a66d26-b2c4-478a-a17a-332b35d185d3))
+    (instances
+      (project "PowerManage.2"
+        (path "/32556704-de3f-4929-98eb-179149f9ec20"
+          (reference "#PWR04") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/337b375c-7c5c-473c-8489-9e0cfaf09fcf"
+          (reference "#PWR062") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/227da19f-1055-426c-8aa6-0726a310546f"
+          (reference "#PWR0102") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/08a030f9-3dfc-48dd-9616-d373e75e86a6"
+          (reference "#PWR0142") (unit 1)
+        )
+      )
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/eb8620a4-a624-49a7-b97c-d559725924be"
+          (reference "#PWR02") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/29cf11cc-0f55-4c38-97ed-f53d3f36699b"
+          (reference "#PWR06") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/3a8df297-551b-4835-9aaa-0222bfd27ad7"
+          (reference "#PWR010") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/c32d382e-085b-4669-bfaf-eaeb0519ff50"
+          (reference "#PWR025") (unit 1)
+        )
+      )
+      (project "PowerBoard_cavity_20230711"
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/fd140234-2fec-4701-bb8a-48f4a387040e"
+          (reference "#PWR023") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/348ef316-cafc-4412-a466-8dca5ac8871a"
+          (reference "#PWR065") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/daf8e39e-206f-4ab0-870d-a8f70f53a9e2"
+          (reference "#PWR035") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/e84a52f0-12ad-4bb8-a5f2-33e14a64a1d8"
+          (reference "#PWR071") (unit 1)
+        )
+      )
+      (project "5V,3.3V,2.5V1.8V"
+        (path "/d66a8fb4-6eba-4ae6-ace3-52941335bc47"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 167.64 92.71 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c55aa40b-c9fa-4d45-9869-8d4f83cbefa6)
+    (property "Reference" "C1" (at 170.18 92.0813 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1uF" (at 170.18 94.6213 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_0603 usual" (at 167.64 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 167.64 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 53b5ad89-6a93-4a00-8196-f1bc7aca4cdc))
+    (pin "2" (uuid 4200a746-dba2-4360-aad0-7d006baf6e15))
+    (instances
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/eb8620a4-a624-49a7-b97c-d559725924be"
+          (reference "C1") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/29cf11cc-0f55-4c38-97ed-f53d3f36699b"
+          (reference "C2") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/3a8df297-551b-4835-9aaa-0222bfd27ad7"
+          (reference "C3") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/c32d382e-085b-4669-bfaf-eaeb0519ff50"
+          (reference "C6") (unit 1)
+        )
+      )
+      (project "PowerBoard_cavity_20230711"
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/fd140234-2fec-4701-bb8a-48f4a387040e"
+          (reference "C17") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/348ef316-cafc-4412-a466-8dca5ac8871a"
+          (reference "C51") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/daf8e39e-206f-4ab0-870d-a8f70f53a9e2"
+          (reference "C26") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/e84a52f0-12ad-4bb8-a5f2-33e14a64a1d8"
+          (reference "C52") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x02_Pin") (at 76.2 72.39 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d5921e4b-ccde-4303-9984-9fc52fe5aca5)
+    (property "Reference" "J2" (at 77.47 73.66 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x02_Pin" (at 77.47 74.93 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 76.2 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 76.2 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 160b154a-7572-4979-aabf-1b25c9b13e6e))
+    (pin "2" (uuid 0dc87231-1ef8-49c2-beae-fbd554fd5950))
+    (instances
+      (project "TX_switch_cavity(2mm)"
+        (path "/213a20d8-6998-457f-a48d-25a2e5afc69f"
+          (reference "J2") (unit 1)
+        )
+      )
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/eb8620a4-a624-49a7-b97c-d559725924be"
+          (reference "J2") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/29cf11cc-0f55-4c38-97ed-f53d3f36699b"
+          (reference "J3") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/3a8df297-551b-4835-9aaa-0222bfd27ad7"
+          (reference "J5") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/c32d382e-085b-4669-bfaf-eaeb0519ff50"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 72.39 64.77 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d9375cc4-16ff-496e-b8bb-8eac9477ba7c)
+    (property "Reference" "#PWR04" (at 72.39 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 72.39 69.469 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 72.39 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 72.39 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 98190485-ee57-47e0-ab8d-73d9b29e61d1))
+    (instances
+      (project "PowerManage.2"
+        (path "/32556704-de3f-4929-98eb-179149f9ec20"
+          (reference "#PWR04") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/337b375c-7c5c-473c-8489-9e0cfaf09fcf"
+          (reference "#PWR062") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/227da19f-1055-426c-8aa6-0726a310546f"
+          (reference "#PWR0102") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/08a030f9-3dfc-48dd-9616-d373e75e86a6"
+          (reference "#PWR0142") (unit 1)
+        )
+      )
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/eb8620a4-a624-49a7-b97c-d559725924be"
+          (reference "#PWR02") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/29cf11cc-0f55-4c38-97ed-f53d3f36699b"
+          (reference "#PWR06") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/3a8df297-551b-4835-9aaa-0222bfd27ad7"
+          (reference "#PWR010") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/c32d382e-085b-4669-bfaf-eaeb0519ff50"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+      (project "PowerBoard_cavity_20230711"
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/fd140234-2fec-4701-bb8a-48f4a387040e"
+          (reference "#PWR023") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/348ef316-cafc-4412-a466-8dca5ac8871a"
+          (reference "#PWR065") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/daf8e39e-206f-4ab0-870d-a8f70f53a9e2"
+          (reference "#PWR035") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/e84a52f0-12ad-4bb8-a5f2-33e14a64a1d8"
+          (reference "#PWR071") (unit 1)
+        )
+      )
+      (project "5V,3.3V,2.5V1.8V"
+        (path "/d66a8fb4-6eba-4ae6-ace3-52941335bc47"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 167.64 97.79 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid daec67e5-bc99-4733-9b2a-c5f782d9675e)
+    (property "Reference" "#PWR04" (at 167.64 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 167.64 102.489 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 167.64 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 167.64 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6e4da4b5-2b04-4691-a5ba-8992b2cefec1))
+    (instances
+      (project "PowerManage.2"
+        (path "/32556704-de3f-4929-98eb-179149f9ec20"
+          (reference "#PWR04") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/337b375c-7c5c-473c-8489-9e0cfaf09fcf"
+          (reference "#PWR062") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/227da19f-1055-426c-8aa6-0726a310546f"
+          (reference "#PWR0102") (unit 1)
+        )
+        (path "/32556704-de3f-4929-98eb-179149f9ec20/08a030f9-3dfc-48dd-9616-d373e75e86a6"
+          (reference "#PWR0142") (unit 1)
+        )
+      )
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/eb8620a4-a624-49a7-b97c-d559725924be"
+          (reference "#PWR02") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/29cf11cc-0f55-4c38-97ed-f53d3f36699b"
+          (reference "#PWR06") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/3a8df297-551b-4835-9aaa-0222bfd27ad7"
+          (reference "#PWR010") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/c32d382e-085b-4669-bfaf-eaeb0519ff50"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "PowerBoard_cavity_20230711"
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/fd140234-2fec-4701-bb8a-48f4a387040e"
+          (reference "#PWR023") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/348ef316-cafc-4412-a466-8dca5ac8871a"
+          (reference "#PWR065") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/daf8e39e-206f-4ab0-870d-a8f70f53a9e2"
+          (reference "#PWR035") (unit 1)
+        )
+        (path "/a0886775-194f-467a-9739-e05d49e35cb0/e84a52f0-12ad-4bb8-a5f2-33e14a64a1d8"
+          (reference "#PWR071") (unit 1)
+        )
+      )
+      (project "5V,3.3V,2.5V1.8V"
+        (path "/d66a8fb4-6eba-4ae6-ace3-52941335bc47"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x02_Pin") (at 187.96 59.69 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e4fe6d8b-c7d3-448e-9486-f4d00de410ad)
+    (property "Reference" "J2" (at 189.23 59.69 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x02_Pin" (at 189.23 62.23 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" (at 187.96 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 187.96 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a05c9923-3420-4c3e-9249-f52861366bb2))
+    (pin "2" (uuid c2d94b45-29db-4745-88a8-f07bbd4ac787))
+    (instances
+      (project "TX_switch_cavity(2mm)"
+        (path "/213a20d8-6998-457f-a48d-25a2e5afc69f"
+          (reference "J2") (unit 1)
+        )
+      )
+      (project "PowerBoard_tunable"
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/eb8620a4-a624-49a7-b97c-d559725924be"
+          (reference "J2") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/29cf11cc-0f55-4c38-97ed-f53d3f36699b"
+          (reference "J3") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/3a8df297-551b-4835-9aaa-0222bfd27ad7"
+          (reference "J5") (unit 1)
+        )
+        (path "/84f7cabf-9bca-4fef-b9d2-8ddcc3b2f317/c32d382e-085b-4669-bfaf-eaeb0519ff50"
+          (reference "J15") (unit 1)
+        )
+      )
+    )
+  )
+)

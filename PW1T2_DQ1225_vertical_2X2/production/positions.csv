@@ -1,0 +1,6 @@
+﻿Designator,Mid X,Mid Y,Rotation,Layer
+IC1,135.02,-62.204895,0.0,top
+SMA1,127.81,-62.204895,0.0,bottom
+SMA2,142.64,-68.805245,315.0,bottom
+SMA3,142.64,-55.605,315.0,bottom
+outline1,77.53596,-62.952103,0.0,top

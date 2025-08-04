@@ -1,0 +1,11 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+C1,0603,1,10uf,
+C2,0603,1,0.1uF,
+C4,0603,1,1uF,
+"C5, C6",0603,2,0.1nF,
+IC2,CLKDivider_SOP65P640X120-8N,1,CLKDivider_5PB1104PGGI,
+J1,PinHeader_1x02_P2.54mm_Vertical,1,Conn_01x02_Pin,
+"J2, J3, J4",SMA_KHD_Back,3,Conn_01x02_Pin,
+J6,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,1,Conn_01x02_Pin,
+Y1,TXCO_ECSTXO3225MV400TR,1,TCXO_ECS-TXO-3225MV-400-TR,
+outline1,Outline_3x2_cavity_20231207,1,~,

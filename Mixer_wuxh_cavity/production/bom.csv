@@ -1,0 +1,5 @@
+Designator,Footprint,Quantity,Value,LCSC Part #
+"SMA1, SMA2",SMA_KHD,2,~,
+U1,SIM73L,1,~,
+"U2, U3",PinHeader_1x02_P2.54mm_Vertical,2,~,
+outline1,Outline_Cavity_3x2_20230711,1,~,

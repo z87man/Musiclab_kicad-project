@@ -1,0 +1,10 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C2",0603,2,22 uF,
+C3,0603,1,1 nF,
+C4,0603,1,100 pF,
+C5,0603,1,4.7 uF,
+J1,JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical_changed,1,Conn_01x02_Pin,
+L1,0603,1,15 nH,
+"SMA1, SMA2",SMA_KHD_Back,2,~,
+U1,PMA3-63GLN+,1,~,
+outline1,Outline_3x2_cavity_20231207,1,~,
